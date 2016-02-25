@@ -1,0 +1,23 @@
+@charset "utf-8";
+.fsbanner{position:relative;margin:10px auto;width:1168px;height:264px;overflow:hidden;border:#eee solid 1px;}
+.fsbanner .fsbannerImg{position:absolute;left:-1170px;top:0;width:6000px;height:264px;overflow:hidden;}
+.fsbanner .fsbannerImg>li{width:1170px;height:263px;}
+.fsbanner .fsbannerImg>li .oneArea{width:205px;position:relative;padding:15px 13px 0px 15px;border-right:#eee solid 1px;height:248px;}
+.fsbanner .fsbannerImg>li span.discount{display:block;position:absolute;top:11px;left:14px;z-index:10;width:86px;height:40px;overflow:hidden;color:transparent;}
+.fsbanner .fsbannerImg>li .combo{display:block;background:url(../images/base.png) no-repeat 0 -493px;width:43px;height:40px;}
+.fsbanner .fsbannerImg>li .order{display:block;background:url(../images/base.png) no-repeat 0 -451px;width:43px;height:40px;margin-left: -3px;}
+.fsbanner .fsbannerImg>li img{width:205px;}
+.fsbanner .fsbannerImg .leftArea,.banner .bannerImg .rightArea{width:336px;position:relative;}
+.fsbanner .fsbannerImg .leftArea{border-right:#eee solid 1px;padding-right:8px;}
+.fsbanner a#fsbannerLeft,.fsbanner a#fsbannerRight{position:absolute;width:30px;height:48px;background:url(../images/btn.png) no-repeat;top:45%;opacity:0.4;filter:alpha(opacity=40);display:none;}
+.fsbanner a#fsbannerLeft{background-position:0 0;left:0px;}
+.fsbanner a#fsbannerRight{background-position:-50px 0px;right:0px;}
+.fsbanner .fsbannerImg>li .oneArea p{width:205px;overflow: hidden;padding:6px 0;border-bottom:#ddd dotted 1px;}
+.fsbanner .fsbannerImg>li .price{font-size:16px;color: #f76120;width: 108px;
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: 400;}
+.fsbanner .fsbannerImg>li .sold{font-size:12px;color:#999;}
+.fsbanner .fsbannerImg>li .sold b{font-weight: normal;}
+.fsbanner .fsbannerImg>li .oneArea h3{height: 18px;line-height: 18px;font-size: 14px;
+color: #666;text-overflow: ellipsis; white-space: nowrap;padding-top:10px;}
+#fsbannerTip{display:none;width:50px;height:45px;line-height:45px;background-color:#aaa;position:absolute;right:30px;top:45%;color:#fff;padding-left: 10px;}
+.fsbanner .fsbannerImg>li .phone{padding:2px 5px;line-height: 40px;color: #FFF;background-color: #F76120;font-size:12px;}

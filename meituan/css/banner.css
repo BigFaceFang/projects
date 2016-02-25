@@ -1,0 +1,19 @@
+@charset "utf-8";
+.banner{position:relative;margin:10px auto;width:688px;height:298px;overflow:hidden;}
+.banner .bannerImg{position:absolute;left:-688px;top:0;width:6000px;height:298px;overflow:hidden;}
+.banner .bannerImg>li{width:688px;height:297px;border-bottom:#eee solid 1px;}
+.banner .bannerImg>li .discount{position:absolute;top:0;right:20px;
+	background:url(../images/base.png) no-repeat 0 -830px;width:47px;height:42px;
+	z-index:2;font-size:20px;color:#fff;padding:10px 0 0 12px;}
+.banner .bannerImg>li img{width:336px;height:220px;}
+.banner .bannerImg .leftArea,.banner .bannerImg .rightArea{width:336px;position:relative;}
+.banner .bannerImg .leftArea{border-right:#eee solid 1px;padding-right:8px;}
+.banner a#bannerLeft,.banner a#bannerRight{position:absolute;width:30px;height:48px;background:url(../images/btn.png) no-repeat;top:45%;opacity:0.3;filter:alpha(opacity=30);display:none;}
+.banner a#bannerLeft{background-position:0 0;left:0px;}
+.banner a#bannerRight{background-position:-50px 0px;right:0px;}
+.banner .bannerImg>li .price{font-size: 30px;color: #f76120;width: 108px;height: 70px;
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;line-height: 70px;text-align: right;font-weight: 400;}
+.banner .bannerImg>li .info h3{width: 214px;font-size: 14px;font-weight: 700;color: #666;
+    overflow: hidden;text-overflow: ellipsis; white-space: nowrap;padding-top:15px;}
+.banner .bannerImg>li .info p{width: 214px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #999;}
+#bannerTip{display:none;width:50px;height:45px;line-height:45px;background-color:#aaa;position:absolute;right:30px;top:45%;color:#fff;padding-left: 10px;}
